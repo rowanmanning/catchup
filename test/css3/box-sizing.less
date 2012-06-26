@@ -1,6 +1,19 @@
 
 #css3-box-sizing {
 
-    
+    // Tests
+    .control-1, .test-1 {
+        height: 40px;
+        border-width: 2px; // just to be sure
+    }
+    .control-1 {
+        width: 296px; // to compensate for border
+    }
+    .test-1 {
+        width: 300px;
+        padding-left: 40px;
+        padding-right: 40px;
+        .box-sizing(border-box);
+    }
 
 }
