@@ -55,3 +55,22 @@
   filter: alpha(opacity=30);
   opacity: 0.3;
 }
+#css3-transition .test-1 {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#css3-transition .test-1:hover {
+  background-color: #f00;
+}
+#css3-transition .test-2 {
+  -webkit-transition: background-color 0.5s, width 0.5s 0.5s;
+  -moz-transition: background-color 0.5s, width 0.5s 0.5s;
+  -ms-transition: background-color 0.5s, width 0.5s 0.5s;
+  transition: background-color 0.5s, width 0.5s 0.5s;
+}
+#css3-transition .test-2:hover {
+  width: 300px;
+  background-color: #f00;
+}

@@ -1,6 +1,20 @@
 
 #css3-transition {
 
-    
+    // Tests
+    .test-1 {
+        .transition(all .5s);
+        &:hover {
+            background-color: #f00;
+        }
+    }
+    .test-2 {
+        @transitions: background-color .5s, width .5s .5s;
+        .transition(@transitions);
+        &:hover {
+            width: 300px;
+            background-color: #f00;
+        }
+    }
 
 }
