@@ -31,9 +31,14 @@
         h2 {
             margin: 0 0 10px 0;
         }
-        .test-box {
+        .test-highlight {
             background-color: #ffc;
             border: 2px solid #cc0;
+        }
+        .test-box {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
         }
     </style>
 
@@ -53,9 +58,9 @@
         </p>
 
         <ul>
-            <li class="test-box">LI</li>
-            <li class="test-box">LI</li>
-            <li class="test-box">LI</li>
+            <li class="test-highlight">LI</li>
+            <li class="test-highlight">LI</li>
+            <li class="test-highlight">LI</li>
         </ul>
 
     </div>
@@ -69,13 +74,13 @@
             The box below has a border-radius on all four sides in supported browsers.
         </p>
 
-        <div class="test-box test-1"></div>
+        <div class="test-highlight test-box test-1"></div>
 
         <p class="expected">
             The box below has a border-radius on only the top-left corner.
         </p>
 
-        <div class="test-box test-2"></div>
+        <div class="test-highlight test-box test-2"></div>
 
     </div>
 

@@ -9,11 +9,6 @@
   *zoom: 1;
   padding: 10px;
 }
-#css3-border-radius div {
-  width: 100px;
-  height: 100px;
-  margin-bottom: 20px;
-}
 #css3-border-radius .test-1 {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
