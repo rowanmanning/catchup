@@ -50,3 +50,8 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+#css3-opacity .test-1 {
+  -ms-filter: alpha(opacity=30);
+  filter: alpha(opacity=30);
+  opacity: 0.3;
+}
