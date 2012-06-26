@@ -19,6 +19,9 @@ code to start using the mixins:
     @import 'lib/css21';
     @import 'lib/css3';
 
+Each of the mixins has extensive documentation in the source
+code. Have a look at [css21.less][css21] and [css3.less][css3].
+
 
 Testing Catchup
 ---------------
@@ -47,6 +50,8 @@ Dual licensed under the [MIT][mit] or [GPL Version 2][gpl2]
 licenses.
 
 
+[css21]: https://github.com/rowanmanning/catchup/blob/master/lib/css21.less
+[css3]: https://github.com/rowanmanning/catchup/blob/master/lib/css3.less
 [node]: http://nodejs.org/
 [npm]: http://npmjs.org/
 [gpl2]: http://opensource.org/licenses/gpl-2.0.php
