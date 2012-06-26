@@ -4,12 +4,23 @@
   list-style: none;
 }
 #css21-inline-block li {
-  background-color: #ffc;
-  border: 1px solid #cc0;
-}
-#css21-inline-block li {
   display: inline-block;
   *display: inline;
   *zoom: 1;
   padding: 10px;
+}
+#css3-border-radius div {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+#css3-border-radius .test-1 {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+#css3-border-radius .test-2 {
+  -webkit-border-radius: 40px 0 0 0;
+  -moz-border-radius: 40px 0 0 0;
+  border-radius: 40px 0 0 0;
 }

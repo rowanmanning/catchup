@@ -31,6 +31,10 @@
         h2 {
             margin: 0 0 10px 0;
         }
+        .test-box {
+            background-color: #ffc;
+            border: 2px solid #cc0;
+        }
     </style>
 
 </head>
@@ -49,9 +53,9 @@
         </p>
 
         <ul>
-            <li>LI</li>
-            <li>LI</li>
-            <li>LI</li>
+            <li class="test-box">LI</li>
+            <li class="test-box">LI</li>
+            <li class="test-box">LI</li>
         </ul>
 
     </div>
@@ -62,8 +66,16 @@
         <h2><a href="#css3-border-radius">css3/border-radius</a></h2>
 
         <p class="expected">
-            What's expected.
+            The box below has a border-radius on all four sides in supported browsers.
         </p>
+
+        <div class="test-box test-1"></div>
+
+        <p class="expected">
+            The box below has a border-radius on only the top-left corner.
+        </p>
+
+        <div class="test-box test-2"></div>
 
     </div>
 
