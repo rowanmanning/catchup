@@ -21,6 +21,60 @@ code to start using the mixins:
 
 Each of the mixins has extensive documentation in the source
 code. Have a look at [css21.less][css21] and [css3.less][css3].
+Some of the basics can be found below:
+
+
+### Border-Radius ###
+
+One line border-radius for modern browsers:
+    
+    .border-radius(10px);
+    .border-radius(10px 0 0 0);
+
+
+### Box-Shadow ###
+
+One line box-shadow for modern browsers:
+    
+    .box-shadow(0 0 10px #f00);
+
+Multiple shadows supported:
+    
+    @shadows: 0 0 10px #f00, inset 0 0 10px #0f0;
+    .box-shadow(@shadows);
+
+
+### Box-Sizing ###
+
+One line box-sizing for modern browsers:
+    
+    .box-sizing(border-box);
+
+
+### Inline-Block ###
+
+Support `display: inline-block;` in IE6–7:
+
+    .inline-block();
+
+
+### Opacity ###
+
+One line opacity for modern browsers and IE6+:
+    
+    .opacity(.5);
+
+
+### Transition ###
+
+One line transitions for modern browsers:
+    
+    .transition(all .5s);
+
+Multiple transitions supported:
+    
+    @transitions: color .5s, font-size 1s;
+    .transition(@transitions);
 
 
 Testing Catchup
