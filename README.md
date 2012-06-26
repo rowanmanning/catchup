@@ -20,6 +20,25 @@ code to start using the mixins:
     @import 'lib/css3';
 
 
+Testing Catchup
+---------------
+
+Catchup is tested with HTML files in browser at the moment. In
+order to test, you'll need to compile the Catchup test LESS
+files into CSS. You'll need to install [Node.js][node],
+[npm][npm] and the LESS command line utility:
+
+    npm install -g less
+
+Then you can run the following from within the project directory
+to compile the test CSS:
+
+    lessc test/catchup.less > test/catchup.css
+
+Now you can open `test/catchup.html` in browser to make sure
+everything works.
+
+
 License
 -------
 
@@ -28,5 +47,7 @@ Dual licensed under the [MIT][mit] or [GPL Version 2][gpl2]
 licenses.
 
 
+[node]: http://nodejs.org/
+[npm]: http://npmjs.org/
 [gpl2]: http://opensource.org/licenses/gpl-2.0.php
 [mit]: http://opensource.org/licenses/mit-license.php

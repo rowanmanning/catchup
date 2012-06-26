@@ -1,0 +1,15 @@
+#css21-inline-block ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#css21-inline-block li {
+  background-color: #ffc;
+  border: 1px solid #cc0;
+}
+#css21-inline-block li {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 10px;
+}
