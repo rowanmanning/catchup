@@ -1,3 +1,25 @@
+/**
+ * Catchup v1.0.0
+ *
+ * Catchup is a small set of CSS3 and CSS 2.1 compatibility mixins
+ * for LESS.
+ *
+ * https://github.com/rowanmanning/catchup
+ *
+ * Copyright 2012, Rowan Manning
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ */
+/**
+ * Catchup v1.0.0
+ *
+ * Catchup is a small set of CSS3 and CSS 2.1 compatibility mixins
+ * for LESS.
+ *
+ * https://github.com/rowanmanning/catchup
+ *
+ * Copyright 2012, Rowan Manning
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ */
 #css21-inline-block ul {
   margin: 0;
   padding: 0;
@@ -59,6 +81,7 @@
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 #css3-transition .test-1:hover {
@@ -68,6 +91,7 @@
   -webkit-transition: background-color 0.5s, width 0.5s 0.5s;
   -moz-transition: background-color 0.5s, width 0.5s 0.5s;
   -ms-transition: background-color 0.5s, width 0.5s 0.5s;
+  -o-transition: background-color 0.5s, width 0.5s 0.5s;
   transition: background-color 0.5s, width 0.5s 0.5s;
 }
 #css3-transition .test-2:hover {
