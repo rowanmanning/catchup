@@ -7,6 +7,8 @@ for LESS. Use catch-up to polyfill features for older browsers
 and prevent code duplication by abstracting away vendor
 prefixes.
 
+**NOTE: This project is no longer being maintained. If you're interested in taking over maintenance of this repo, please contact me.**
+
 
 Using Catchup
 -------------
